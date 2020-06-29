@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <title>Layout</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      /* overflow: hidden; */
+      /* background: lightslategray; */
+      background: linear-gradient(#1A1E21, #353A40,#1D2124);
+      
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 1.5rem;
+      color: white;
+    }
+
+    .Footer {
+      color: white;
+      font-size: 1rem;
+    }
+
+    .row>div {
+      font-size: 2rem;
+    }
+
+    .calc {
+      height: calc(100vh - 88px);
+    }
+
+    @media (max-width: 575px) {
+      .calc {
+        height: calc(100vh - 136px);
+      }
+    }
+
+    .nav-link{
+      color: white;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class=" col-12 col-md-6 d-flex justify-content-center justify-content-md-start align-items-center ">
+        LOGO</div>
+      <ul class=" col-12 col-md-6 nav justify-content-center justify-content-md-end  align-items-center ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- ----------------------------------- -->
+  <div class="container calc">
+    <div class="d-flex flex-column  justify-content-center align-items-center h-100 flex-fill">
+      <img class="rounded-circle" src="https://picsum.photos/300/300/?random=1">
+      <div class=" d-flex flex-column justify-content-center align-items-center">
+        <h3>Bootstrap Layout</h3>
+        <p class=" text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores nisi
+          consequatur soluta. Quis tempore necessitatibus sint, dolores et, neque nulla, ut dolore deleniti eum ipsam
+          voluptas commodi fuga! Porro.</p>
+        <a class="btn btn-light" style="color: black;">Learn More</a>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------- -->
+  <div class="container d-flex justify-content-center ">
+    <div class="Footer">
+      Design by Kun
+    </div>
+  </div>
+
+
+
+
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
